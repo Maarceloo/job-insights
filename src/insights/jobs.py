@@ -3,7 +3,7 @@ from typing import List, Dict
 import csv
 
 
-PATH = "data/jobs.csv"
+# PATH = "data/jobs.csv"
 
 
 @lru_cache
@@ -40,4 +40,4 @@ def filter_by_job_type(jobs: List[Dict], job_type: str) -> List[Dict]:
     raise NotImplementedError
 
 
-print(get_unique_job_types(PATH))
+# print(get_unique_job_types(PATH))
